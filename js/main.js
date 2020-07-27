@@ -14,3 +14,6 @@ const months = [
     'Lapkritis',
     'Gruodis'
 ];
+renderTableRows('.table-content', data, months);
+renderTableFooter('.table-footer', data);
+renderSummary('.summary-list', data, months);
